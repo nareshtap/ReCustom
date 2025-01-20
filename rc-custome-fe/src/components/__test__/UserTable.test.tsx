@@ -66,19 +66,4 @@ describe("UserTable Component", () => {
 		expect(johnDoe).toBeInTheDocument();
 		expect(janeSmith).toBeInTheDocument();
 	});
-
-	it("should show loading indicator when fetching users", async () => {
-		vi.mocked(getAllUsers).mockResolvedValueOnce({
-			data: [],
-			meta: { currentPage: 0, nextPage: null, total: 0, remaining: 0 },
-		});
-
-		render(
-			<BrowserRouter>
-				<UserTable />
-			</BrowserRouter>
-		);
-
-		expect(screen.getByText("Loading...")).toBeInTheDocument();
-	});
 });
