@@ -1,5 +1,9 @@
 # RC-CUSTOME Repository
 
+## Project Preview
+![testTask](https://github.com/user-attachments/assets/99fc0f21-198c-44e0-ad5d-8f5bb35e0da8)
+
+
 ## Overview
 
 The `RECUSTOME` repository houses two separate projects:
