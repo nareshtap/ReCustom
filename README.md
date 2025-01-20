@@ -48,6 +48,10 @@ The `package.json` includes several scripts to streamline development:
     ```bash
     npm install
     ```
+3. Config .env file:
+    ```bash
+    add .env file with related credentials
+    ```
 
 ### Running the Application
 
@@ -86,6 +90,10 @@ The `package.json` includes several scripts to streamline development:
 2. Install dependencies:
     ```bash
     npm install
+    ```
+3. Config .env file:
+    ```bash
+    add .env file with related credentials
     ```
 
 ### Running the Application
